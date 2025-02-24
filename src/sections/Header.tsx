@@ -132,7 +132,7 @@ const Navbar = () => {
                                         animate="visible"
                                         exit="exit"
                                         transition={{ duration: 0.3 }}
-                                        className="absolute left-0 mt-2 w-48 bg-[#0300145e] border border-[rgba(112,66,248,0.38)] rounded-lg shadow-lg"
+                                        className="absolute left-0 mt-2 w-48 bg-[#000000] border border-[rgba(112,66,248,0.38)] rounded-lg"
                                     >
                                         {WIEMPOWER_VERSIONS.map(({ version, url }) => (
                                             <button
@@ -144,7 +144,6 @@ const Navbar = () => {
                                                 className="w-full px-4 py-2 text-left font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-blue-400 hover:bg-[#a855f7] hover:text-white transition-colors"
                                             >
                                                 WIEMPOWER {version}
-                                                <span className="ml-2 animate-pulse text-xl">🎉</span>
                                             </button>
 
                                         ))}
