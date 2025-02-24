@@ -240,10 +240,8 @@ const Navbar = () => {
                             <button onClick={() => handleScroll('team')} className="text-gray-200 hover:text-[#a855f7] text-left">Team</button>
                             <Link
                                 href="/wiempower"
-                                className="text-gray-200 hover:text-[#a855f7] font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-blue-400 sm:text-lg text-base"
                             >
-                                WIEMPOWER
-                                <span className="ml-2 animate-pulse text-xl text-yellow-400">🎉</span>
+                                Wiempower 2025
                             </Link>
 
                             <button onClick={() => handleScroll('contact-us')} className="text-gray-200 hover:text-[#a855f7] text-left">Contact</button>
