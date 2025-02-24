@@ -163,10 +163,9 @@ const Navbar = () => {
 
                         <Link
                             href="/wiempower"
-                            className={`${navLinkClass('wiempower')} font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-blue-400`}
+                            className={`${navLinkClass('wiempower')}`}
                         >
-                            WIEMPOWER
-                            <span className="ml-2 animate-pulse text-xl text-yellow-400">🎉</span>
+                            Wiempower 2025
                         </Link>
 
                         <button onClick={() => handleScroll('contact-us')} className={navLinkClass('contact-us')}>
