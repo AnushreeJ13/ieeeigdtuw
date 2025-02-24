@@ -266,7 +266,7 @@ const Navbar = () => {
                     </motion.div>
                 )}
             </AnimatePresence>
-            <PopupStrip />
+            {/* <PopupStrip /> */}
         </nav>
 
     );
