@@ -51,7 +51,7 @@ const Home = () => {
       <Team />
       <Faq />
       <Footer />
-      <PopUp isOpen={isPopupOpen} onClose={handleClosePopup} />
+      {/* <PopUp isOpen={isPopupOpen} onClose={handleClosePopup} /> */}
       <BackToTop/>
     </>
   );
