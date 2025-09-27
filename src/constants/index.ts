@@ -1,23 +1,30 @@
-import akankshaRani from "@/assets/teamPic/chair_akanksha.jpg";
-import gunjanGoyal from "@/assets/teamPic/gunjangoyal.jpg"; 
-import shantiKumari from "@/assets/teamPic/viceChair_shanti.jpg"; 
-import arya from "@/assets/teamPic/wieViceChair_arya.jpeg"; 
-import vanshikaSaini from "@/assets/teamPic/gs_vanshika.jpg"; 
-import kritiKhurana from "@/assets/teamPic/wieGS_kriti.jpeg"; 
-import prishaVirmani from "@/assets/teamPic/sponsi_prisha.jpg"; 
-import anamikaKumari from "@/assets/teamPic/treasurer_anamika.jpg"; 
-import sakshiBhushan from "@/assets/teamPic/em_sakshi.jpg"; 
-import riyaJain from "@/assets/teamPic/em_riya.jpg"; 
-import adhishreeSingh from "@/assets/teamPic/pr_adhishree.jpg"; 
-import sakshiSahu from "@/assets/teamPic/pr_sakshi.jpg"; 
-import namitaBhatt from "@/assets/teamPic/namitabhatt.jpeg"; 
-import khushiKankheria from "@/assets/teamPic/creative_khushi.jpg"; 
-import sakshiSharma from "@/assets/teamPic/hr_sakshi.jpg"; 
-import divyaVerma from "@/assets/teamPic/content_divya.jpeg"; 
-import mahakSahu from "@/assets/teamPic/web_mahak.jpg";
-import manviUpadhyay from "@/assets/teamPic/web_manvi.jpeg"; 
-import pooja from "@/assets/teamPic/media_pooja.jpg";
-import jhanviMadan from "@/assets/teamPic/membership_jhanvi.jpg";
+import anamikaKumari from "@/assets/teamPic/1.jpeg";
+import riyaJain from "@/assets/teamPic/2.jpg"; 
+import khushiKankheria from "@/assets/teamPic/3.jpg"; 
+import sakshiBhushan from "@/assets/teamPic/4.png"; 
+import anushreeJain from "@/assets/teamPic/5.jpg"; 
+import snehaRoychowdhury from "@/assets/teamPic/6.jpeg"; 
+import harshita from "@/assets/teamPic/7.jpg"; 
+import ishitaPahuja from "@/assets/teamPic/8.jpeg"; 
+import gunjanAggarwal from "@/assets/teamPic/9.jpeg"; 
+import himaniGupta from "@/assets/teamPic/10.jpg"; 
+import khushiMittal from "@/assets/teamPic/11.jpg"; 
+import priyaSingh from "@/assets/teamPic/12.jpg"; 
+import kananMittal from "@/assets/teamPic/13.jpeg"; 
+import divyaSharma from "@/assets/teamPic/14.jpg"; 
+import sunakshi from "@/assets/teamPic/15.jpeg"; 
+import sakshi from "@/assets/teamPic/16.jpeg"; 
+import diyaTyagi from "@/assets/teamPic/17.jpeg";
+import khushiChoudhary from "@/assets/teamPic/18.jpeg"; 
+//import enakshi from "@/assets/teamPic/19.jpg";
+import advikaSinghal from "@/assets/teamPic/20.png";
+import sonal from "@/assets/teamPic/21.jpeg";
+import pragati from "@/assets/teamPic/22.jpeg";
+import snehaYadav from "@/assets/teamPic/23.jpeg";
+import vidhiSaxena from "@/assets/teamPic/24.jpeg";
+import manya from "@/assets/teamPic/25.jpg";
+import hibaAli from "@/assets/teamPic/26.jpg";
+import dhwanisharma from "@/assets/teamPic/27.jpg";
 
 import random1 from "@/assets/sliderPhotos/random_1.jpg";
 import random2 from "@/assets/sliderPhotos/random_2.jpg";
@@ -80,144 +87,193 @@ import banner6 from "@/assets/wieEvents/gajendra_purohit.png"
 export const TEAM = [
   {
       role: "IEEE Chairperson",
-      name: "AKANKSHA RANI",
-      memberPic: akankshaRani, // Use akankshaRani image
-      linkedin: "https://www.linkedin.com/in/akanksha-rani-775355202/",
-      instagram: "https://www.instagram.com/unishe_21/",
+      name: "Anamika Kumari",
+      memberPic: anamikaKumari, 
+      linkedin: "https://www.linkedin.com/in/anamika-kumari-3a594124b/",
+      instagram: "https://www.instagram.com/anamika._.kumari?utm_source=ig_web_button_share_sheet&igsh=bWswcHNjcjF4M3E2",
   },
   {
       role: "WIE Chairperson",
-      name: "GUNJAN GOYAL",
-      memberPic: gunjanGoyal, // Use gunjanGoyal image
-      linkedin: "https://www.linkedin.com/in/gunjan-goyal/",
-      instagram: "https://www.instagram.com/gunjanzz23/",
+      name: "Riya Jain",
+      memberPic: riyaJain,
+      linkedin: "https://www.linkedin.com/in/riya-jain-b41267258",
+      instagram: "https://www.instagram.com/riyajain0905?igsh=MTUyZ3d0enZobTlnNQ==",
   },
   {
       role: "IEEE Vice Chairperson",
-      name: "SHANTI KUMARI",
-      memberPic: shantiKumari, // Use shantiKumari image
-      linkedin: "https://www.linkedin.com/in/shanti-kumari-gautam-a7309325/",
-      instagram: "https://www.instagram.com/shantikumarigautam/",
+      name: "Khushi Kankheria",
+      memberPic:khushiKankheria, 
+      linkedin: "https://www.linkedin.com/in/khushi-kankheria-0b1751256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/khushi_kankheria?igsh=cjhucXF2MGxreTA3&utm_source=qr",
   },
   {
       role: "WIE Vice Chairperson",
-      name: "ARYA",
-      memberPic: arya, // Use arya image
-      linkedin: "https://www.linkedin.com/in/arya-42ab13262/",
-      instagram: "https://www.instagram.com/_aryaakeshri/",
-  },
-  {
-      role: "IEEE General Secretary",
-      name: "VANSHIKA SAINI",
-      memberPic: vanshikaSaini, // Use vanshikaSaini image
-      linkedin: "https://www.linkedin.com/in/vanshikasainii/",
-      instagram: "https://www.instagram.com/vanshikas.19/",
-  },
-  {
-      role: "WIE General Secretary",
-      name: "KRITI KHURANA",
-      memberPic: kritiKhurana, // Use kritiKhurana image
-      linkedin: "https://www.linkedin.com/in/kriti-khurana-24b059286/",
-      instagram: "https://www.instagram.com/kriti.0.4/",
-  },
-  {
-      role: "Sponsorship Head",
-      name: "PRISHA VIRMANI",
-      memberPic: prishaVirmani, // Use prishaVirmani image
-      linkedin: "https://www.linkedin.com/in/prisha-virmani-46577b258/",
-      instagram: "https://www.instagram.com/prisha.virmani/",
-  },
-  {
-      role: "Treasurer",
-      name: "ANAMIKA KUMARI",
-      memberPic: anamikaKumari, // Use anamikaKumari image
-      linkedin: "https://www.linkedin.com/in/anamika-kumari-3a594124b/",
-      instagram: "https://www.instagram.com/anamika._.kumari/",
-  },
-  {
-      role: "Event Management Head",
-      name: "SAKSHI BHUSHAN",
-      memberPic: sakshiBhushan, // Use sakshiBhushan image
-      linkedin: "https://www.linkedin.com/in/ms-sakshi-bhushan/",
-      instagram: "https://www.instagram.com/sakshi___666/",
-  },
-  {
-      role: "Event Management Head",
-      name: "RIYA JAIN",
-      memberPic: riyaJain, // Use riyaJain image
-      linkedin: "https://www.linkedin.com/in/riya-jain-b41267258/",
-      instagram: "https://www.instagram.com/riyajain0905/",
-  },
-  {
-      role: "Public Relation Head",
-      name: "ADHISHREE SINGH",
-      memberPic: adhishreeSingh, // Use adhishreeSingh image
-      linkedin: "https://www.linkedin.com/in/adhishree-singh-6100bb250/",
-      instagram: "https://www.instagram.com/snarkypuff/",
-  },
-  {
-      role: "Public Relation Head",
-      name: "SAKSHI SAHU",
-      memberPic: sakshiSahu, // Use sakshiSahu image
-      linkedin: "https://www.linkedin.com/in/sakshi-sahu-2b926224a/",
-      instagram: "https://www.instagram.com/itsmesakshi006/",
-  },
-  {
-      role: "Creative Head",
-      name: "NAMITA BHATT",
-      memberPic: namitaBhatt, // Use namitaBhatt image
-      linkedin: "https://www.linkedin.com/in/namita-bhatt-82077424a/",
-      instagram: "https://www.instagram.com/namitabhatt_/",
-  },
-  {
-      role: "Creative Head",
-      name: "KHUSHI KANKHERIA",
-      memberPic: khushiKankheria, // Use khushiKankheria image
-      linkedin: "https://www.linkedin.com/in/khushi-kankheria-0b1751256/",
-      instagram: "https://www.instagram.com/khushi_kankheria/",
-  },
-  {
-      role: "HR Head",
-      name: "SAKSHI SHARMA",
-      memberPic: sakshiSharma, // Use sakshiSharma image
-      linkedin: "https://www.linkedin.com/in/sakshi-sharma-47a618288/",
-      instagram: "https://www.instagram.com/oopsakshi/",
-  },
-  {
-      role: "Content Head",
-      name: "DIVYA VERMA",
-      memberPic: divyaVerma, // Use divyaVerma image
-      linkedin: "https://www.linkedin.com/in/divya-verma-2b5284257/",
-      instagram: "https://www.instagram.com/divyaverma0__9/",
-  },
-  {
-      role: "Web Administrator",
-      name: "MAHAK SAHU",
-      memberPic: mahakSahu, // Use mahakSahu image
-      linkedin: "https://www.linkedin.com/in/mahaksahu/",
-      instagram: "https://www.instagram.com/pari_sahu2004/",
-  },
-  {
-      role: "Web Administrator",
-      name: "MANVI UPADHYAY",
-      memberPic: manviUpadhyay, // Use manviUpadhyay image
-      linkedin: "https://www.linkedin.com/in/manviupadhyay2/",
+      name: "Sakshi Bhushan",
+      memberPic: sakshiBhushan, 
+      linkedin: "https://www.linkedin.com/in/bhushansakshi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagram: "https://www.instagram.com",
   },
   {
-      role: "Media Head",
-      name: "POOJA",
-      memberPic: pooja, // Use pooja image
-      linkedin: "https://www.linkedin.com/in/pooja-rajput-0b8716269/",
-      instagram: "https://www.instagram.com/pooja_rajput80/",
+      role: "IEEE General Secretary",
+      name: "Anushree Jain",
+      memberPic: anushreeJain,
+      linkedin: "https://www.linkedin.com/in/anushree-jain-2990a0285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/anushree_jain4225?igsh=MXQ2cTk1bm53ZDV1cA==",
   },
   {
-      role: "Membership Incharge",
-      name: "JHANVI MADAN",
-      memberPic: jhanviMadan, // Use jhanviMadan image
-      linkedin: "https://www.linkedin.com/in/jhanvi-madan-348a4a228/",
-      instagram: "https://www.instagram.com/jhanvimadan_/",
-  }
+      role: "WIE General Secretary",
+      name: "Sneha Roychowdhury",
+      memberPic: snehaRoychowdhury, 
+      linkedin: "https://www.linkedin.com/in/snehaaroychowdhury",
+      instagram: "https://www.instagram.com/sneha.rchives/",
+  },
+  {
+      role: "Sponsorship Head",
+      name: "Harshita",
+      memberPic: harshita, 
+      linkedin: "https://www.linkedin.com/in/harshita-a02474289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/harshitaa.__.19?igsh=MTIwcHB0cmlqb3RxdA==",
+  },
+  {
+    role: "Sponsorship Head",
+    name: "Ishita Pahuja",
+    memberPic: ishitaPahuja, 
+    linkedin: "https://www.linkedin.com/in/ishita-pahuja-702776284/",
+    instagram: "https://www.instagram.com",
+},
+  {
+      role: "Treasurer",
+      name: "Gunjan Aggarwal",
+      memberPic: gunjanAggarwal, 
+      linkedin: "https://www.linkedin.com/in/gunjan-aggarwal-b61b91212",
+      instagram: "https://www.instagram.com",
+  },
+  {
+      role: "Event Management Head",
+      name: "Himani Gupta",
+      memberPic: himaniGupta,
+      linkedin: "https://www.linkedin.com/in/himani-gupta-442b26287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com",
+  },
+  {
+      role: "Event Management Head",
+      name: "Khushi Mittal",
+      memberPic: khushiMittal,
+      linkedin: "https://www.linkedin.com/in/khushi-mittal-155204274/?originalSubdomain=in",
+      instagram: "https://www.instagram.com",
+  },
+  {
+    role: "Event Management Head",
+    name: "Priya Singh",
+    memberPic: priyaSingh, 
+    linkedin: "https://www.linkedin.com/in/priya-singh-b1a9a0277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    instagram: "https://www.instagram.com",
+},
+  {
+      role: "Public Relation Head",
+      name: "Kanan Mittal",
+      memberPic: kananMittal,
+      linkedin: "https://www.linkedin.com/in/kanan-mittal-0a1b54289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com",
+  },
+  {
+      role: "Public Relation Head",
+      name: "Divya Sharma",
+      memberPic: divyaSharma, 
+      linkedin: "https://www.linkedin.com/in/divya-72018a283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/the_divine_16?igsh=MXB3ZTdobHdwNzB0OA==",
+  },
+  {
+    role: "Public Relation Head",
+    name: "Sunakshi",
+    memberPic: sunakshi, 
+    linkedin: "https://www.linkedin.com/in/sunakshi-b311b7282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    instagram: "https://www.instagram.com/mistyyrao?igsh=a2tkemR2djU1ZWtq",
+},
+  {
+      role: "Creative Head",
+      name: "Sakshi",
+      memberPic: sakshi,
+      linkedin: "www.linkedin.com/in/sakshi-a24899290",
+      instagram: "https://www.instagram.com/sakshii05_/",
+  },
+  {
+      role: "Creative Head",
+      name: "Diya Tyagi",
+      memberPic: diyaTyagi, 
+      linkedin: "https://www.linkedin.com/in/diya-tyagi-6251b3274/",
+      instagram: "https://www.instagram.com",
+  },
+  {
+      role: "HR Head",
+      name: "Khushi Choudhary",
+      memberPic: khushiChoudhary, 
+      linkedin: "https://www.linkedin.com/in/khushi-choudhary-bab28928a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/_ch_khushi_23_?igsh=OTc0eDZvM2tjZ2dz",
+  },
+  /*{
+    role: "HR Head",
+    name: "Enakshi",
+    memberPic: enakshi, 
+    linkedin: "https://www.linkedin.com",
+    instagram: "https://www.instagram.com",
+},*/
+  {
+      role: "Content Head",
+      name: "Advika Singhal",
+      memberPic: advikaSinghal, 
+      linkedin: "https://www.linkedin.com/in/advika-singhal-ab97a7285?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/_.adviikaaa_?igsh=MWh0YTZ3YWxsM2J1YQ==",
+  },
+  {
+    role: "Content Head",
+    name: "Sonal",
+    memberPic: sonal, 
+    linkedin: "https://www.linkedin.com/in/sonaligdtuw?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    instagram: "https://www.instagram.com",
+},
+  {
+      role: "Technical Head",
+      name: "Pragati",
+      memberPic: pragati, 
+      linkedin: "https://www.linkedin.com/in/pragati-860830284/",
+      instagram: "https://www.instagram.com/pragattii_14/",
+  },
+  {
+      role: "Technical Head",
+      name: "Sneha Yadav",
+      memberPic: snehaYadav,
+      linkedin: "https://www.linkedin.com/in/sneha-yadav-11a454283/",
+      instagram: "https://www.instagram.com/sneha_2005_yadav/",
+  },
+  {
+      role: "Media Head",
+      name: "Vidhi Saxena",
+      memberPic: vidhiSaxena,
+      linkedin: "https://www.linkedin.com/in/vidhi-saxena-86150a243/",
+      instagram: "https://www.instagram.com",
+  },
+  {
+    role: "Media Head",
+    name: "Manya",
+    memberPic: manya, 
+    linkedin: "https://www.linkedin.com",
+    instagram: "https://www.instagram.com",
+},
+  {
+      role: "Membership & Research Head",
+      name: "Hiba Ali",
+      memberPic: hibaAli, 
+      linkedin: "https://www.linkedin.com/in/hiba-ali-419835290/",
+      instagram: "https://www.instagram.com",
+  },
+  {
+    role: "Membership & Research Head",
+    name: "Dhwani Sharma",
+    memberPic: dhwanisharma, 
+    linkedin: "https://www.linkedin.com/in/dhwanii/",
+    instagram: "https://www.instagram.com",
+}
 ];
 
 
