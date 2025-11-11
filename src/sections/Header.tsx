@@ -162,10 +162,12 @@ const Navbar = () => {
                         </button>
 
                         <Link
-                            href="/wiempower"
+                            href="https://open-source-week-2025-h5cp.vercel.app/"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className={`${navLinkClass('wiempower')}`}
                         >
-                            Wiempower 5.0
+                            Open Source Week 7.0
                         </Link>
 
                         <button onClick={() => handleScroll('contact-us')} className={navLinkClass('contact-us')}>
@@ -239,9 +241,12 @@ const Navbar = () => {
                             )}
                             <button onClick={() => handleScroll('team')} className="text-gray-200 hover:text-[#a855f7] text-left">Team</button>
                             <Link
-                                href="/wiempower"
+                                href="https://open-source-week-2025-h5cp.vercel.app/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-gray-200 hover:text-[#a855f7] text-left"
                             >
-                                Wiempower 5.0
+                                Open Source Week
                             </Link>
 
                             <button onClick={() => handleScroll('contact-us')} className="text-gray-200 hover:text-[#a855f7] text-left">Contact</button>
